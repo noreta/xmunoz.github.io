@@ -30,7 +30,7 @@ With these tools at your disposal, one could concievably `mv` every directory ex
 $ mv [bcdefghijklmnopqrstuvwxyz]/ ../
 {% endhighlight %}
 
-While this may work in a few limited cases, what if the directory names are more than a single character long? What if the objects you want to move are better defined by exclusion than inclusion? What about more complex pattern-matching requirements?
+While this may work in a few limited cases, what if the directory names are more than a single character long? What if the objects you want to move are better defined by exclusion rather than inclusion? What about more complex pattern-matching requirements?
 
 ## Hack
 After reading this whole post, you'll never need to write something like this again.
@@ -78,7 +78,7 @@ You may notice that the meaning of `?` has now changed, which could cause issues
 $ mv !(a) ../
 {% endhighlight %}
 
-Voilà! When it comes to bash pattern matching, your expressions can be both simple and powerful, while eliminating the need for syntactically horrible bash loops. If you want to play it safe, just disable extglob when not needed.
+Voilà! When it comes to bash pattern matching, your expressions can be both simple and powerful, while eliminating the need for syntactically horrible bash loops. If you want to play it safe and prevent confusion, just disable extglob when not needed.
 
 {% highlight ruby %}
 $ shopt -u extglob
