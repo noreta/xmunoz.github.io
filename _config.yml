@@ -1,22 +1,23 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: meh...
+description: Asymmetry enthusiast and software maker/hater
+meta_description: "programming stuffs"
 
 aboutPage: true
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 
-paginate: 20
+kramdown:
+  input: GFM
+
+paginate: 5
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus_shortname: 'your-disqus-shortname'
+domain_name: 'https://xmunoz.github.io'
+disqus_shortname: 'cristina_munoz'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'https://xmunoz.github.io'
+author:         'xmunoz'
 
 permalink:       /:year/:title/
 
