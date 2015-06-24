@@ -4,6 +4,6 @@ permalink: about/
 profile: true
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+Cristina is a lazy software engineer living and working in Berlin. She likes [underwater rugby](https://www.uwrtourist.org/), roller skating, unix shells, and mischief making.
 
 {% include footer.html %}
